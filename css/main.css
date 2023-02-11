@@ -1,0 +1,63 @@
+body, a{
+    text-decoration: none;
+    color: #498398;
+    margin: 0px;
+    padding: 5px;
+}
+img{
+    border-width: 1px;
+    border-style: solid;
+    width: 240px;
+    height: 240px;
+}
+.header-content, .navigation-content, .project-content{
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    display: flex;
+}
+.header-item{
+    background-color: #e1e1e1;
+    margin: 10px;
+    float: left;
+}
+#social-content{
+    padding: 15px;
+    width: 25%;
+}
+#information-content{
+    width: 70%;
+    display: flex;
+}
+.information-item{
+    background-color: #d1d1d1;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    width: 47%;
+}
+#information-list-technical{
+    flex-direction: row;
+}
+.technical-item{
+    float: left;
+    margin: 2px;
+    width: 100px;
+}
+#perfil-image{
+    width: 100%;
+}
+.navigation-content, .project-content{
+    text-align: center;
+}
+.navigation-item, .project-item{
+    float: left;
+    width: 33%;
+}
+#footer-content{
+    background-color: #f1f1f1;
+    text-align: center;
+    font-style: italic;
+}
+
