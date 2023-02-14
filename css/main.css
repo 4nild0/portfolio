@@ -52,6 +52,9 @@ img, .navigation-item{
   margin: 2px;
   width: 100px;
 }
+.img-project{
+  background-color: whitesmoke;
+}
 #magazine-img-project{
   background-image: url("../assets/png/magalu.png");
   background-position: center center;
